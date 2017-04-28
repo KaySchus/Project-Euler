@@ -13,4 +13,4 @@ def fib_even_sum_it1(max):
 
 	return result
 
-print(fib_even_sum(4000000))
+print(fib_even_sum_it1(4000000))

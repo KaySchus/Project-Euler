@@ -1,4 +1,4 @@
-def fib_even_sum_it1(max):
+def fib_even_sum(max):
 	result = 0
 	i = 1
 	j = 1
@@ -13,4 +13,4 @@ def fib_even_sum_it1(max):
 
 	return result
 
-print(fib_even_sum_it1(4000000))
+print(fib_even_sum(4000000))

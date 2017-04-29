@@ -13,6 +13,8 @@ def sieve(limit = 125000):
 
 	return primes
 
-target = 10001
-primes = sieve()
-print(primes[target - 1])
+primes = sieve(2000000)
+summation = 0
+for prime in primes:
+	summation += prime
+print(summation)

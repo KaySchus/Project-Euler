@@ -1,4 +1,4 @@
-def factor_it1(target):
+def factor(target):
 	factor = 2
 	last_factor = 1
 
@@ -14,4 +14,4 @@ def factor_it1(target):
 
 	return last_factor
 
-print(factor_it1(600851475143))
+print(factor(600851475143))

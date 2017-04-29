@@ -16,14 +16,4 @@ def is_palindrome(number):
 
 	return rev == number
 
-def num_digits(num):
-	ori = num
-	digs = 0
-	while ori > 0:
-		ori = ori // 10
-		digs += 1
-
-	return digs
-
 print(find_palindrome_max_multiples(100, 999))
-print(num_digits(1000))
